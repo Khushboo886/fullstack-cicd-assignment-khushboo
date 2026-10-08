@@ -23,7 +23,7 @@ export default function App() {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Full Stack CI/CD Demo</h1>
+      <h1>Full Stack CI/CD Demo - Version 2</h1>
       <input value={name} onChange={(e) => setName(e.target.value)} />
       <button onClick={add}>Add</button>
       <ul>
